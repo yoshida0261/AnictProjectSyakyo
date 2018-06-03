@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AnictProject.iml" filepath="$PROJECT_DIR$/AnictProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/auth/auth/auth.iml" filepath="$PROJECT_DIR$/modules/auth/auth/auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/auth/auth-domain/auth-domain.iml" filepath="$PROJECT_DIR$/modules/auth/auth-domain/auth-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/auth/auth-infra/auth-infra.iml" filepath="$PROJECT_DIR$/modules/auth/auth-infra/auth-infra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/auth/auth-usecase/auth-usecase.iml" filepath="$PROJECT_DIR$/modules/auth/auth-usecase/auth-usecase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/common/common.iml" filepath="$PROJECT_DIR$/modules/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/resource/resource.iml" filepath="$PROJECT_DIR$/modules/resource/resource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/work-dictionary/work-dictionary/work-dictionary.iml" filepath="$PROJECT_DIR$/modules/work-dictionary/work-dictionary/work-dictionary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/work-dictionary/work-dictionary-domain/work-dictionary-domain.iml" filepath="$PROJECT_DIR$/modules/work-dictionary/work-dictionary-domain/work-dictionary-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/work-dictionary/work-dictionary-infra/work-dictionary-infra.iml" filepath="$PROJECT_DIR$/modules/work-dictionary/work-dictionary-infra/work-dictionary-infra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/work-dictionary/work-dictionary-usecase/work-dictionary-usecase.iml" filepath="$PROJECT_DIR$/modules/work-dictionary/work-dictionary-usecase/work-dictionary-usecase.iml" />
+    </modules>
+  </component>
+</project>

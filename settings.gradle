@@ -1,0 +1,33 @@
+include ':app'//, ':auth', ':auth-domain', ':auth-infra', ':auth-usecase', ':work-dictionary', ':work-dictionary-domain', ':work-dictionary-infra', ':work-dictionary-usecase', ':resource'
+
+def modulesRepotDir = new File('modules')
+
+include ':auth',
+        ':auth-domain',
+        ':auth-infra',
+        ':auth-usecase'
+def authModuleDir = new File(modulesRepotDir, 'auth')
+project(':auth').projectDir = new File(authModuleDir, 'auth')
+project(':auth-domain').projectDir = new File(authModuleDir, 'auth-domain')
+project(':auth-infra').projectDir = new File(authModuleDir, 'auth-infra')
+project(':auth-usecase').projectDir = new File(authModuleDir, 'auth-usecase')
+
+include 'work-dictionary',
+        'work-dictionary-domain',
+        'work-dictionary-infra',
+        'work-dictionary-usecase'
+def workDictionaryDir = new File(modulesRepotDir, 'work-dictionary')
+project(':work-dictionary').projectDir = new File(workDictionaryDir, 'work-dictionary')
+project(':work-dictionary-domain').projectDir = new File(workDictionaryDir, 'work-dictionary-domain')
+project(':work-dictionary-infra').projectDir = new File(workDictionaryDir, 'work-dictionary-infra')
+project(':work-dictionary-usecase').projectDir = new File(workDictionaryDir, 'work-dictionary-usecase')
+
+include 'common'
+project (':common').projectDir = new File(modulesRepotDir, 'common')
+
+include 'resource'
+project (':resource').projectDir = new File(modulesRepotDir, 'resource')
+
+
+
+
